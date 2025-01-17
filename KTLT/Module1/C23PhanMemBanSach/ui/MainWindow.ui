@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sách Mini</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>571</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>#9Slide03 Arima Madurai ExtraBo</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(249, 245, 246)</string>
+    </property>
+    <property name="title">
+     <string>Thông tin nhập: </string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tên khách hàng: </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTenKH">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(253, 206, 223)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonBanMoi">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(242, 190, 209);</string>
+     </property>
+     <property name="text">
+      <string>Bán mới</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/ic_new.png</normaloff>../images/ic_new.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonTinh">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>80</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(242, 190, 209);</string>
+     </property>
+     <property name="text">
+      <string>Tính</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/ic_calculate.png</normaloff>../images/ic_calculate.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Số lượng: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Khách hàng là SV: </string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxSV">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>120</y>
+       <width>75</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonThongKe">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>120</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(242, 190, 209);</string>
+     </property>
+     <property name="text">
+      <string>Thống kê</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/ic_statistics.png</normaloff>../images/ic_statistics.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonThoat">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>160</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(242, 190, 209);</string>
+     </property>
+     <property name="text">
+      <string>Thoát</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/ic_exit.png</normaloff>../images/ic_exit.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Thành tiền: </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditSoLuong">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(253, 206, 223)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditThanhTien">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>160</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(253, 206, 223)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>270</y>
+      <width>571</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>#9Slide03 Arima Madurai ExtraBo</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(248, 232, 238)</string>
+    </property>
+    <property name="title">
+     <string>Thông tin thống kê: </string>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tổng số KH: </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTongSoKH">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>40</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(249, 245, 246);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tổng số KH là SV: </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tổng doanh thu: </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTongSV">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>80</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(249, 245, 246);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditTongDoanhThu">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>120</y>
+       <width>281</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>#9Slide03 Arima Madurai ExtraBo</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(249, 245, 246);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelBook">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>30</y>
+       <width>121</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../images/ic_book.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>665</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>lineEditTenKH</tabstop>
+  <tabstop>checkBoxSV</tabstop>
+  <tabstop>pushButtonBanMoi</tabstop>
+  <tabstop>pushButtonTinh</tabstop>
+  <tabstop>pushButtonThongKe</tabstop>
+  <tabstop>pushButtonThoat</tabstop>
+  <tabstop>lineEditTongSoKH</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

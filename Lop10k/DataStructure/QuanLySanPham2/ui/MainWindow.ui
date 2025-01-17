@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>40</y>
+      <width>431</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Chương trình quản lý sản phẩm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>401</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/ic_store.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelWelcome">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>510</y>
+      <width>761</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#0000ff;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuH_th_ng">
+    <property name="title">
+     <string>Hệ thống</string>
+    </property>
+    <addaction name="actionAccountInfor"/>
+    <addaction name="separator"/>
+    <addaction name="actionChangePass"/>
+    <addaction name="separator"/>
+    <addaction name="actionExitProgram"/>
+   </widget>
+   <widget class="QMenu" name="menuQu_n_l">
+    <property name="title">
+     <string>Quản lý</string>
+    </property>
+    <addaction name="actionEmployee"/>
+    <addaction name="separator"/>
+    <addaction name="actionProduct"/>
+   </widget>
+   <widget class="QMenu" name="menuH_ng_d_n">
+    <property name="title">
+     <string>Hướng dẫn</string>
+    </property>
+    <addaction name="actionIntroduction"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuH_th_ng"/>
+   <addaction name="menuQu_n_l"/>
+   <addaction name="menuH_ng_d_n"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAccountInfor">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_admin.png</normaloff>../images/ic_admin.png</iconset>
+   </property>
+   <property name="text">
+    <string>Thông tin tài khoản</string>
+   </property>
+  </action>
+  <action name="actionChangePass">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_edit.png</normaloff>../images/ic_edit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Đổi mật khẩu</string>
+   </property>
+  </action>
+  <action name="actionExitProgram">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_close.png</normaloff>../images/ic_close.png</iconset>
+   </property>
+   <property name="text">
+    <string>Thoát phần mềm</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F4</string>
+   </property>
+  </action>
+  <action name="actionEmployee">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_employee.png</normaloff>../images/ic_employee.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nhân viên</string>
+   </property>
+  </action>
+  <action name="actionProduct">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_product.png</normaloff>../images/ic_product.png</iconset>
+   </property>
+   <property name="text">
+    <string>Sản phẩm</string>
+   </property>
+  </action>
+  <action name="actionIntroduction">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_book.png</normaloff>../images/ic_book.png</iconset>
+   </property>
+   <property name="text">
+    <string>Hướng dẫn sử dụng</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/ic_infor.png</normaloff>../images/ic_infor.png</iconset>
+   </property>
+   <property name="text">
+    <string>Giới thiệu phần mềm</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

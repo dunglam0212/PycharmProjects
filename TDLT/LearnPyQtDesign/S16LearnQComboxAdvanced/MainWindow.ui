@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>606</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>461</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(225, 255, 250);</string>
+    </property>
+    <property name="title">
+     <string>Input Information:</string>
+    </property>
+    <widget class="QLabel" name="labelFullname">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>40</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Full Name:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelGender">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Gender:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelCity">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>City:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>40</y>
+       <width>271</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBoxFemale">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>75</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonConfirm">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>130</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(220, 215, 255);</string>
+     </property>
+     <property name="text">
+      <string>Confirm</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonClose">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>130</y>
+       <width>84</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: rgb(220, 215, 255);
+</string>
+     </property>
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxCity">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>100</y>
+       <width>271</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Ho Chi Minh</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../.designer/backup/images/ic_hcm.jpg</normaloff>../../../../.designer/backup/images/ic_hcm.jpg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ha Noi</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../.designer/backup/images/ic_hanoi.jpg</normaloff>../../../../.designer/backup/images/ic_hanoi.jpg</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Da Nang</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../.designer/backup/images/ic_danang.png</normaloff>../../../../.designer/backup/images/ic_danang.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Da Lat</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../.designer/backup/images/ic_dalat.png</normaloff>../../../../.designer/backup/images/ic_dalat.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hue</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../../.designer/backup/images/ic_hue.jpg</normaloff>../../../../.designer/backup/images/ic_hue.jpg</iconset>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>250</y>
+      <width>461</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(255, 255, 199);</string>
+    </property>
+    <property name="title">
+     <string>Output Information:</string>
+    </property>
+    <widget class="QPlainTextEdit" name="plainTextEditOutput">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>421</width>
+       <height>101</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>606</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

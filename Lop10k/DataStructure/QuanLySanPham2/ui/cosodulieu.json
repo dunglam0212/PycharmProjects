@@ -1,0 +1,1 @@
+[{"id": "P1", "name": "Áo ấm", "quantity": 3, "price": 150}, {"id": "P3", "name": "Áo len", "quantity": 10, "price": 80}, {"id": "P5", "name": "Áo thun", "quantity": 2, "price": 70}, {"id": "P6", "name": "Áo nắng", "quantity": 7, "price": "240"}, {"id": "P2", "name": "Áo gió", "quantity": 5, "price": 200.0}]
