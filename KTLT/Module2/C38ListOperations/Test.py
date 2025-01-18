@@ -19,3 +19,29 @@ else:
 
 rs2 = sum_perfect_number(list)
 print(f"Tổng các số hoàn thiện trong List trên là: {rs2}")
+
+rs3 = sort_asc(list)
+print("Danh sách sau khi sắp xếp tăng dần là:")
+print(rs3)
+
+rs4 = sort_desc(list)
+print("Danh sách sau khi sắp xếp giảm dần là:")
+print(rs4)
+
+itm_remove = 567
+rs5 = remove_an_element(itm_remove, list)
+if rs5 == True:
+    print(f"Đã xoá thành công phần tử {itm_remove} trong danh sách")
+    print(f"Danh sách sau khi xoá phần tử {itm_remove} là:")
+    print(list)
+else:
+    print(f"Không tìm thấy phần tử {itm_remove} để xoá")
+    print(f"Xoá phần tử {itm_remove} thất bại")
+
+rs6 = remove_neg_numbers(list)
+print(f"Danh sách sau khi xoá các số âm là: ")
+print(rs6)
+
+rs7 = remove_all(list)
+print(f"Danh sách sau khi xoá toàn bộ list là: ")
+print(rs7)

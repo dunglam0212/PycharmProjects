@@ -1,7 +1,6 @@
 from random import randint
 
-def create_list():
-    list = []
+def create_list(list):
     for i in range(10):
         x = randint(-100, 101)
         list.append(x)
@@ -35,4 +34,39 @@ def sum_perfect_number(list):
     return s
 
 def sort_asc(list):
-    pass
+    for i in range(len(list)):
+        for j in range(i+1, len(list)):
+            if list[i]>list[j]:
+                temp = list[i]
+                list[i] = list[j]
+                list[j] = temp
+    return list
+
+def sort_desc(list):
+    for i in range(len(list)):
+        for j in range(i+1, len(list)):
+            if list[i]<list[j]:
+                temp = list[i]
+                list[i] = list[j]
+                list[j] = temp
+    return list
+
+def remove_an_element(itm,list):
+    for l in list[:]:
+        if l==itm:
+            list.remove(itm)
+            del itm
+            return True
+
+def remove_neg_numbers(list):
+    for l in list[:]:
+        if l<0:
+            list.remove(l)
+            del l
+    return list
+
+def remove_all(list):
+    for l in list[:]:
+        list.remove(l)
+        del l
+    return list
